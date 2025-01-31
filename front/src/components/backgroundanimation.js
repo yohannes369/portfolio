@@ -28,7 +28,7 @@ const BackgroundAnimation = () => {
     <div className="absolute top-0 left-0 w-full h-full z-0">
       <Canvas
         camera={{ position: [0, 0, 15] }}
-        style={{ background: '#ffffff' }} // Set canvas background to white
+        style={{ background: '#000000' }} // Set canvas background to black
       >
         <ambientLight intensity={0.5} />
         <directionalLight position={[5, 5, 5]} intensity={1} />
